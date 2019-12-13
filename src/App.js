@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Home from './components/Home'
 import EM from './components/EM'
+import ER from './components/ER'
 import Admin from './components/Admin'
 import {Switch, Route, Link} from 'react-router-dom';
 
@@ -16,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
               <Route path='/em' component={EM} />
+              <Route path='/er' component={ER} />
               <Route path='/admin' component={Admin} />
              
         </Switch>

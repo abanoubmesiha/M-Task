@@ -1,18 +1,15 @@
 import React from 'react';
 import './Sidebar+main.css';
-import Filter from './Filter'
-import Table from './Table'
+import Form from './Form'
 
-const EM = () => {
+const ER = () => {
     return (
         <React.Fragment>
             <div className="main">
-                <Filter />
-                <Table />
-               
+                <Form />
             </div>
         </React.Fragment>
     );
 };
 
-export default EM;
+export default ER;
