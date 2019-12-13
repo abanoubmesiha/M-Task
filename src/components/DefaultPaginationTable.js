@@ -149,16 +149,24 @@ class DefaultPaginationTable extends React.Component {
   name: "Item name 2",
   price: 100
 },{
-      id: 2,
+      code: 2,
       name: "Item name 2",
-      price: 100
+      country: 100,
+      job:'asd',
+      phone:'012',
+      image:'asd',
+      setting:'asd'
   }
   ,];
     return (
-      <BootstrapTable data={ products } pagination> 
-          <TableHeaderColumn dataField='id' isKey>Product ID</TableHeaderColumn>
-          <TableHeaderColumn dataField='name'>Product Name</TableHeaderColumn>
-          <TableHeaderColumn dataField='price'>Product Price</TableHeaderColumn>
+      <BootstrapTable data={ products } striped hover condensed pagination> 
+          <TableHeaderColumn width='150' dataField='code' isKey>Code</TableHeaderColumn>
+          <TableHeaderColumn width='150' dataField='name'>Name</TableHeaderColumn>
+          <TableHeaderColumn width='150' dataField='country'>Country</TableHeaderColumn>
+          <TableHeaderColumn width='150' dataField='job'>Job</TableHeaderColumn>
+          <TableHeaderColumn width='150' dataField='phone'>Phone</TableHeaderColumn>
+          <TableHeaderColumn width='150' dataField='image'>Image</TableHeaderColumn>
+          <TableHeaderColumn width='150' dataField='setting'>Setting</TableHeaderColumn>
       </BootstrapTable>
     );
   }
