@@ -7,13 +7,155 @@ class DefaultPaginationTable extends React.Component {
       id: 1,
       name: "Item name 1",
       price: 100
-  },{
+  }
+  ,{
+    id: 2,
+    name: "Item name 2",
+    price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
       id: 2,
       name: "Item name 2",
       price: 100
-  },];
+  },{
+    id: 2,
+    name: "Item name 2",
+    price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+  id: 2,
+  name: "Item name 2",
+  price: 100
+},{
+      id: 2,
+      name: "Item name 2",
+      price: 100
+  }
+  ,];
     return (
-      <BootstrapTable data={ products } height='120' scrollTop={ 'Bottom' } pagination> 
+      <BootstrapTable data={ products } pagination> 
           <TableHeaderColumn dataField='id' isKey>Product ID</TableHeaderColumn>
           <TableHeaderColumn dataField='name'>Product Name</TableHeaderColumn>
           <TableHeaderColumn dataField='price'>Product Price</TableHeaderColumn>
