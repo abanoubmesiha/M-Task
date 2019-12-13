@@ -2,6 +2,7 @@ import React from 'react';
 import './Sidebar+main.css';
 import Filter from './Filter'
 import Table from './Table'
+import DefaultPaginationTable from './DefaultPaginationTable'
 
 const EM = () => {
     return (
@@ -9,6 +10,7 @@ const EM = () => {
             <div className="main">
                 <Filter />
                 <Table />
+                <DefaultPaginationTable />
                
             </div>
         </React.Fragment>
