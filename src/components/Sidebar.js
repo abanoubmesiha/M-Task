@@ -5,8 +5,8 @@ const Sidebar = () => {
     return (
         <React.Fragment>
             <div class="sidenav">
-                <a href="em">Employee Management</a>
-                <a href="er">Employee Registration</a>
+                <a href="/em">Employee Management</a>
+                <a href="/er">Employee Registration</a>
             </div>
 
         </React.Fragment>

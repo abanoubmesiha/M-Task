@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <React.Fragment>
             <ul>
-                <li><a class="active" href="admin">Admin</a></li>
+                <li><a class="active" href="/admin">Admin</a></li>
             </ul>
         </React.Fragment>
     );
