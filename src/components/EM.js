@@ -1,15 +1,14 @@
 import React from 'react';
 import './Sidebar+EM.css';
 
-const Sidebar = () => {
+const EM = () => {
     return (
         <React.Fragment>
-            <div class="sidenav">
-                <a href="em">Employee Management</a>
+            <div className="main">
+                <h2>em</h2>
             </div>
-
         </React.Fragment>
     );
 };
 
-export default Sidebar;
+export default EM;
