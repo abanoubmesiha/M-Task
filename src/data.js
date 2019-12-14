@@ -28,7 +28,7 @@ export const customers = [
 },
     {
     code: '004',
-    name: "Abbas",
+    name: "Ali",
     country: 'KSA',
     job:'HR',
     phone:'01234567891',
