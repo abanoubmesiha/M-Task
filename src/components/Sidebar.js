@@ -1,12 +1,14 @@
 import React from 'react';
 import './Sidebar+main.css';
+import {Link} from 'react-router-dom';
+
 
 const Sidebar = () => {
     return (
         <React.Fragment>
             <div class="sidenav">
-                <a href="/em">Employee Management</a>
-                <a href="/er">Employee Registration</a>
+            <Link to="/em"><a>Employee Management</a></Link>
+            <Link to="/er"><a>Employee Registration</a></Link>
             </div>
 
         </React.Fragment>

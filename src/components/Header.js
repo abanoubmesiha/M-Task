@@ -1,11 +1,13 @@
 import React from 'react';
 import './Header.css';
+import {Link} from 'react-router-dom';
+
 
 const Header = () => {
     return (
         <React.Fragment>
             <ul>
-                <li><a class="active" href="/admin">Admin</a></li>
+                <li><Link to="/admin"><a class="active">Admin</a></Link></li>
             </ul>
         </React.Fragment>
     );
