@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faListOl, faPen,faAt, faMobileAlt,faGlobeAsia,
+    faCity,faStreetView,faHome,faUserMd,faUsers } from '@fortawesome/free-solid-svg-icons'
 import '../css/Sidebar+main.css';
 import '../css/ER.css';
 import '../css/mainB.css';
@@ -6,7 +9,7 @@ import '../css/mainB.css';
 const ER = () => {
     return (
         <React.Fragment>
-           <form class="main" id="ER">
+           {/* <form class="main" id="ER">
            <table>
                 <tr>
                     <td>Code :</td>
@@ -76,7 +79,112 @@ const ER = () => {
             </table>
             <button type="submit" className="mainB" form="ER" value="New">New</button>                
             <button type="submit" className="mainB" form="ER" value="Save">Save</button>                
-</form>
+</form> */}
+                
+<div class="container">
+  <form>
+    <div class="row">
+        <div class="col-half">
+            <h4>Personal Information</h4>
+            <div class="input-group input-group-icon">
+                <input type="text" placeholder="Code"/>
+                <div class="input-icon"><FontAwesomeIcon icon={faListOl} /></div>
+            </div>
+            <div class="input-group input-group-icon">
+            <input type="text" placeholder="Full Name"/>
+                <div class="input-icon"><FontAwesomeIcon icon={faPen} /></div>
+            </div>
+            <div class="input-group input-group-icon">
+            <input type="email" placeholder="Email"/>
+                <div class="input-icon"><FontAwesomeIcon icon={faAt} /></div>
+            </div>
+            <div class="input-group input-group-icon">
+                <input type="number" placeholder="Mobile"/>
+                <div class="input-icon"><FontAwesomeIcon icon={faMobileAlt} /></div>
+            </div>
+        </div>
+        <div class="col-half">
+            <h4>Adresses</h4>
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="County"/>
+                    <div class="input-icon"><FontAwesomeIcon icon={faGlobeAsia} /></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="City"/>
+                    <div class="input-icon"><FontAwesomeIcon icon={faCity} /></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="Region"/>
+                    <div class="input-icon"><FontAwesomeIcon icon={faStreetView} /></div>
+                </div>
+                <div class="input-group input-group-icon">
+                    <input type="text" placeholder="Adress Line"/>
+                    <div class="input-icon"><FontAwesomeIcon icon={faHome} /></div>
+                </div>
+        </div>
+     </div>
+    <div class="row">
+      <div class="col-half">
+        <h4>Date of Birth</h4>
+        <div class="input-group">
+          <div class="col-third">
+            <input type="text" placeholder="DD"/>
+          </div>
+          <div class="col-third">
+            <input type="text" placeholder="MM"/>
+          </div>
+          <div class="col-third">
+            <input type="text" placeholder="YYYY"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-half">
+        <h4>Gender</h4>
+        <div class="input-group">
+          <input type="radio" name="gender" value="male" id="gender-male"/>
+          <label for="gender-male">Male</label>
+          <input type="radio" name="gender" value="female" id="gender-female"/>
+          <label for="gender-female">Female</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-half">
+            <h4>CV</h4>
+            <div class="input-group input-group-icon">
+                <input type="text" placeholder="Job"/>
+                <div class="input-icon"><FontAwesomeIcon icon={faUserMd} /></div>
+                </div>
+            <div class="input-group">
+                <select>
+                    <option>Employed</option>
+                    <option>Unemployed</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-half">
+            <h4>Photo</h4>
+            <div class="input-group input-group-icon">
+                <input type="file" placeholder="Card CVC"/>
+                <div class="input-icon"><FontAwesomeIcon icon={faUsers} /></div>
+            </div>
+        </div>
+    </div><hr/>
+    <div class="row">
+      <h4>Terms and Conditions</h4>
+      <div class="input-group">
+        <input type="checkbox" id="terms"/>
+        <label for="terms">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label>
+      </div>
+    </div>
+      <div class="row">
+        <div class="input-group">
+            <button type="submit" className="mainB" form="ER" value="New">New</button>                
+            <button type="submit" className="mainB" form="ER" value="Save">Save</button>                
+        </div>
+      </div>
+  </form>
+</div>
         </React.Fragment>
     );
 };
