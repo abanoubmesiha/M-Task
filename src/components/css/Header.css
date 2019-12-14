@@ -67,6 +67,7 @@
       position: absolute;
       right: 0px;
       top: 0px;
+      
     }
     .nav > .nav-btn > label {
       display: inline-block;
@@ -93,6 +94,7 @@
       overflow-y: hidden;
       top: 50px;
       left: 0px;
+      z-index:1;
     }
     .nav > .nav-links > a {
       display: block;
