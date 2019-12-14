@@ -21,3 +21,25 @@
   button {
     margin-right: 10px;
   }
+  .mainB {
+    background-color:#81c0eb;
+    border-radius:10px;
+    border:1px solid #4a9bff;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    /* font-weight:bold; */
+    font-family:Arial;
+    font-size:14px;
+    padding:1px 20px;
+    text-decoration:none;
+  }
+  .mainB:hover {
+    background-color:#4a9bff;
+  }
+  .mainB:active {
+    position:relative;
+    top:1px;
+  }
+  
+          

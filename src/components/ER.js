@@ -73,8 +73,8 @@ const ER = () => {
                     <td><img src="https://i.ibb.co/DMCn29T/profile.jpg" alt="profile" width="50" height="50"/></td>
                 </tr>
             </table>
-            <button type="submit" form="ER" value="Save">Save</button>                
-            <button type="submit" form="ER" value="New">New</button>                
+            <button type="submit" className="mainB" form="ER" value="New">New</button>                
+            <button type="submit" className="mainB" form="ER" value="Save">Save</button>                
 </form>
         </React.Fragment>
     );
