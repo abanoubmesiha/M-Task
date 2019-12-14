@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header'
-import Sidebar from './components/Sidebar'
+// import Sidebar from './components/Sidebar'
 import Home from './components/Home'
 import EM from './components/EM/EM'
 import ER from './components/ER/ER'
@@ -11,7 +11,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Switch>
         <Route exact path='/' component={Home} />
               <Route path='/em' component={EM} />
