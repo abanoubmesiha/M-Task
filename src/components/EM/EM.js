@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Sidebar+main.css';
 
 // import Filter from './Filter'
-import DefaultPaginationTable from './DefaultPaginationTable'
+import LargeColumnTable  from './LargeColumnTable'
 
 
 const EM = () => {
@@ -79,7 +79,7 @@ const EM = () => {
         <React.Fragment>
             <div className="main">
                 {/* <Filter /> */}
-                <DefaultPaginationTable />
+                <LargeColumnTable  />
                
             </div>
         </React.Fragment>

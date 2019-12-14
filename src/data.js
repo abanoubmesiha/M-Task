@@ -6,7 +6,8 @@ export const customers = [
     job:'Accountant',
     phone:'01234567891',
     image:'https://i.ibb.co/DMCn29T/profile.jpg',
-    setting:'Edit and Delete'
+    edit:'',
+    delete:'',
 },
     {
     code: '002',
@@ -15,7 +16,8 @@ export const customers = [
     job:'Cashier',
     phone:'01234567891',
     image:'https://i.ibb.co/DMCn29T/profile.jpg',
-    setting:'Edit and Delete'
+    edit:'',
+    delete:'',
 },
     {
     code: '003',
@@ -24,7 +26,8 @@ export const customers = [
     job:'Manager',
     phone:'01234567891',
     image:'https://i.ibb.co/DMCn29T/profile.jpg',
-    setting:'Edit and Delete'
+    edit:'faCoffee',
+    delete:'',
 },
     {
     code: '004',
@@ -33,6 +36,7 @@ export const customers = [
     job:'HR',
     phone:'01234567891',
     image:'https://i.ibb.co/DMCn29T/profile.jpg',
-    setting:'Edit and Delete'
+    edit:'',
+    delete:'',
 },
 ];
