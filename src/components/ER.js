@@ -21,7 +21,9 @@ const ER = () => {
                 </tr>
                 <tr>
                     <td>ID Type :</td>
-                    <td><input type="text" name="IDType" id="IDType" /></td>
+                    <td><select>
+                        <option name="IDType" id="IDType" value=""></option>
+                        </select></td>
                     <td>Region :</td>
                     <td><input type="text" name="Region" id="Region" /></td>
                 </tr>
@@ -47,7 +49,9 @@ const ER = () => {
                     <td>Email :</td>
                     <td><input type="text" name="Email" id="Email" /></td>
                     <td>Language :</td>
-                    <td><input type="text" name="Language" id="Language" /></td>
+                    <td><select>
+                        <option name="Language" id="Language" value=""></option>
+                        </select></td>
                 </tr>
                 <tr>
                     <td>Note :</td>
@@ -55,13 +59,17 @@ const ER = () => {
                 </tr>
                 <tr>
                     <td>Job :</td>
-                    <td><input type="text" name="Job" id="Job" /></td>
+                    <td><select>
+                        <option name="Job" id="Job" value=""></option>
+                        </select></td>
                     <td>Upload Photo :</td>
                     <td><input type="file" name="UploadPhoto" id="UploadPhoto" /></td>
                 </tr>
                 <tr>
                     <td>Employee Status :</td>
-                    <td><input type="text" name="EmployeeStatus" id="EmployeeStatus" /></td>
+                    <td><select>
+                        <option name="EmployeeStatus" id="EmployeeStatus" value=""></option>
+                        </select></td>
                     <td><img src="https://i.ibb.co/DMCn29T/profile.jpg" alt="profile" width="50" height="50"/></td>
                 </tr>
             </table>
