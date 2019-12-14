@@ -2,9 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faListOl, faPen,faAt, faMobileAlt,faGlobeAsia,
     faCity,faStreetView,faHome,faUserMd,faUsers } from '@fortawesome/free-solid-svg-icons'
-import '../css/Sidebar+main.css';
-import '../css/ER.css';
-import '../css/mainB.css';
+import './css/ER.css';
+import '../index.css';
 
 const ER = () => {
     return (

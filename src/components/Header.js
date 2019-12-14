@@ -6,14 +6,12 @@ import {Link} from 'react-router-dom';
 const Header = () => {
     return (
         <React.Fragment>
-            {/* <ul>
-                <li><Link to="/admin"><a class="active">Admin</a></Link></li>
-            </ul> */}
+            
             <div class="nav">
                 <input type="checkbox" id="nav-check"/>
                 <div class="nav-header">
-                    <div class="nav-title">
-                    The Company
+                <div class="nav-title">
+                <Link to="/">The Company</Link>
                     </div>
                 </div>
                 <div class="nav-btn">

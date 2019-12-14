@@ -1,11 +1,9 @@
 import React , {Component} from 'react';
 import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
-import {CustomerConsumer} from '../../Context'
+import {CustomerConsumer} from '../Context'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit, faTrash } from '@fortawesome/free-solid-svg-icons'
-
-// import {customers} from '../data'
-
+ 
 class LargeColumnTable  extends React.Component {
   render() {
     return (
@@ -23,7 +21,12 @@ class LargeColumnTable  extends React.Component {
               }
             return (
               
-              <BootstrapTable data={ value.customers } striped hover condensed pagination> 
+              <BootstrapTable data={ value.customers } striped hover condensed pagination 
+                  // tableStyle={ { border: '#0000FF 2.5px solid' } }
+                  // containerStyle={ { border: '#FFBB73 2.5px solid' } }
+                  headerStyle={ { background: '#4f9bff',color: '#FFFFFF' } }
+                  bodyStyle={ { background: '#fff',color: '#000' } }
+                  >
                 <TableHeaderColumn width='auto' dataAlign='center' headerAlign='center' dataField='code' filter={ { 
                                                                 type: 'NumberFilter', 
                                                                 delay: 1000, 
