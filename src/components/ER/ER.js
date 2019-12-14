@@ -1,6 +1,7 @@
 import React from 'react';
-import './Sidebar+main.css';
-import './ER.css';
+import '../css/Sidebar+main.css';
+import '../css/ER.css';
+import '../css/mainB.css';
 
 const ER = () => {
     return (

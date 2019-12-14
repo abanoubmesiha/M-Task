@@ -5,7 +5,7 @@ export const customers = [
     country: 'KSA',
     job:'Accountant',
     phone:'01234567891',
-    image:'Not Available',
+    image:'https://i.ibb.co/DMCn29T/profile.jpg',
     setting:'Edit and Delete'
 },
     {
@@ -14,7 +14,7 @@ export const customers = [
     country: 'KSA',
     job:'Cashier',
     phone:'01234567891',
-    image:'Not Available',
+    image:'https://i.ibb.co/DMCn29T/profile.jpg',
     setting:'Edit and Delete'
 },
     {
@@ -23,7 +23,7 @@ export const customers = [
     country: 'KSA',
     job:'Manager',
     phone:'01234567891',
-    image:'Not Available',
+    image:'https://i.ibb.co/DMCn29T/profile.jpg',
     setting:'Edit and Delete'
 },
     {
@@ -32,7 +32,7 @@ export const customers = [
     country: 'KSA',
     job:'HR',
     phone:'01234567891',
-    image:'Not Available',
+    image:'https://i.ibb.co/DMCn29T/profile.jpg',
     setting:'Edit and Delete'
 },
 ];
